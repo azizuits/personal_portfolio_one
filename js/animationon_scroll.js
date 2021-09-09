@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 AOS.init({
     debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
     throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
@@ -12,3 +13,6 @@ AOS.init({
     mirror: false, // whether elements should animate out while scrolling past them
     anchorPlacement: 'top-bottom'
 });
+=======
+AOS.init();
+>>>>>>> 6cd11218741f4feb2cb177e9ce012b9c2f96762b

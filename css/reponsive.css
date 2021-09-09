@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width: 575px) {
           .navbar-nav {
                     margin-top: 10px;
@@ -222,3 +223,229 @@
                     margin-bottom: 10px;
           }
 }
+=======
+@media screen and (max-width: 575px) {
+          .navbar-nav {
+                    margin-top: 10px;
+          }
+          .nav-link {
+                    display: block;
+                    padding: 0.5rem 1rem;
+                    color: var(--white-color) !important;
+                    text-decoration: none;
+                    text-align: center;
+                    background-color: var(--link-color);
+                    margin-bottom: 5px;
+                    transition: color 0.15s ease-in-out,
+                              background-color 0.15s ease-in-out,
+                              border-color 0.15s ease-in-out;
+          }
+          .nav-link:hover {
+                    background-color: var(--main-color);
+                    transition: 1s linear;
+                    -webkit-transition: 1s linear;
+                    -moz-transition: 1s linear;
+                    -ms-transition: 1s linear;
+                    -o-transition: 1s linear;
+          }
+          .navbar-brand img {
+                    display: none;
+          }
+          .navbar-toggler {
+                    text-align: center;
+                    width: 100%;
+          }
+          #banner_section #banner_left {
+                    text-align: center;
+                    margin-top: 70px;
+                    width: 100%;
+                    height: auto;
+                    padding: 15px 0;
+          }
+          #banner_section #banner_right {
+                    width: 100%;
+                    margin-top: 250px;
+          }
+          #banner_section #banner_left,
+          #banner_section #banner_right {
+                    box-shadow: 0 2px 5px var(--link-color) !important;
+                    -webkit-box-shadow: 0 2px 5px var(--link-color) !important;
+                    -moz-box-shadow: 0 2px 5px var(--link-color) !important;
+                    -ms-box-shadow: 0 2px 5px var(--link-color) !important;
+                    -o-box-shadow: 0 2px 5px var(--link-color) !important;
+          }
+          #project {
+                    width: 100%;
+          }
+          #about_img_left {
+                    width: 100%;
+                    margin: 0 auto;
+          }
+          #about_right {
+                    text-align: center;
+                    width: 100%;
+          }
+          #service_title,
+          #about_title,
+          #skill_title,
+          #portfolio_title,
+          #testimonial_title,
+          #blog_title,
+          #contact_title {
+                    width: 100%;
+          }
+          .service_content .content {
+                    margin-bottom: 10px;
+          }
+          .contact_content {
+                    width: 100%;
+                    height: 600px;
+          }
+          .contact_content #contact_form {
+                    border-right: 0;
+                    padding: 0;
+          }
+          .contact_content #contact_address {
+                    margin-top: -100px;
+                    padding: 0;
+          }
+          .contact_content #contact_address ul li {
+                    padding: 0 0 0;
+          }
+
+          .portfolio_content .item_menu ul li {
+                    padding: 10px 10px;
+          }
+          .footer_content .allright,
+          .footer_content #social_link,
+          .footer_content .design {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 10px;
+          }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+          .navbar-nav {
+                    margin-top: 10px;
+          }
+          .nav-link {
+                    display: block;
+                    padding: 0.5rem 1rem;
+                    color: var(--white-color) !important;
+                    text-decoration: none;
+                    text-align: center;
+                    background-color: var(--link-color);
+                    margin-bottom: 5px;
+                    transition: color 0.15s ease-in-out,
+                              background-color 0.15s ease-in-out,
+                              border-color 0.15s ease-in-out;
+          }
+          .nav-link:hover {
+                    background-color: var(--main-color);
+                    transition: 1s linear;
+                    -webkit-transition: 1s linear;
+                    -moz-transition: 1s linear;
+                    -ms-transition: 1s linear;
+                    -o-transition: 1s linear;
+          }
+          .navbar-brand img {
+                    display: none;
+          }
+          .navbar-toggler {
+                    text-align: center;
+                    width: 100%;
+          }
+          #banner_section #banner_left {
+                    text-align: center;
+                    margin-top: 70px;
+                    width: 100%;
+                    height: auto;
+                    padding: 15px 0;
+          }
+          #banner_section #banner_right {
+                    width: 100%;
+                    margin-top: 250px;
+          }
+          #banner_section #banner_left,
+          #banner_section #banner_right {
+                    box-shadow: 0 2px 5px var(--link-color) !important;
+                    -webkit-box-shadow: 0 2px 5px var(--link-color) !important;
+                    -moz-box-shadow: 0 2px 5px var(--link-color) !important;
+                    -ms-box-shadow: 0 2px 5px var(--link-color) !important;
+                    -o-box-shadow: 0 2px 5px var(--link-color) !important;
+          }
+          #project {
+                    width: 100%;
+          }
+          #about_img_left {
+                    width: 100%;
+                    margin: 0 auto;
+          }
+          #about_right {
+                    text-align: center;
+                    width: 100%;
+          }
+          #service_title,
+          #about_title,
+          #skill_title,
+          #portfolio_title,
+          #testimonial_title,
+          #blog_title,
+          #contact_title {
+                    width: 100%;
+          }
+          .service_content .content {
+                    margin-bottom: 10px;
+          }
+          .contact_content {
+                    width: 100%;
+                    height: 600px;
+          }
+          .contact_content #contact_form {
+                    border-right: 0;
+                    padding: 0;
+          }
+          .contact_content #contact_address {
+                    margin-top: -100px;
+                    padding: 0;
+          }
+          .contact_content #contact_address ul li {
+                    padding: 0 0 0;
+          }
+          .contact_content #contact_address ul li small {
+                    padding: 0 0 5px;
+                    border-bottom: none;
+          }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+          #project {
+                    width: 80%;
+          }
+          #banner_left h1 {
+                    font-size: 36px;
+          }
+          #banner_right img {
+                    width: 100%;
+                    height: 400px;
+          }
+          #about_img_left {
+                    width: 100%;
+                    margin: 0 auto;
+          }
+          #about_right {
+                    text-align: center;
+          }
+          #service_title,
+          #skill_title,
+          #portfolio_title,
+          #testimonial_title,
+          #blog_title,
+          #contact_title {
+                    width: 100%;
+          }
+          .service_content .content {
+                    margin-bottom: 10px;
+          }
+}
+>>>>>>> 6cd11218741f4feb2cb177e9ce012b9c2f96762b
